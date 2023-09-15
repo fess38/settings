@@ -10,9 +10,13 @@ hardstatus string "%= %{= +b kW}%-w%{kW} %n* %t %{-}%+w %="
 
 # SWITCH WINDOWS
 # Ctrl + Alt + Left
-bindkey ^[[1;7C prev
+bindkey "^[[1;7C" prev
+# Ctrl + Left
+bindkey "\033[1;5D" prev
 # Ctrl + Alt + Right
-bindkey ^[[1;7D next
+bindkey "^[[1;7D" next
+# Ctrl + Right
+bindkey "\033[1;5C" next
 
 # RESIZE PANES
 # Ctrl + A + Left
