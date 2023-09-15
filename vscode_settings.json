@@ -1,0 +1,25 @@
+{
+    "editor.fontSize": 14,
+    "editor.hover.delay": 1500,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "on",
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.excludeGitIgnore": false,
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "Default Light+",
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 20
+}

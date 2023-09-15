@@ -1,0 +1,17 @@
+[user]
+	name = Yury Anapolskiy
+	email = fess38@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+	safecrlf = true
+	editor = nano
+[color]
+	ui = true
+[push]
+	default = matching
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
