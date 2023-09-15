@@ -1,4 +1,16 @@
 {
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "black-formatter.args": [
+        "--line-length",
+        "120"
+    ],
+    "editor.fontFamily": "'Liberation Mono', 'monospace', monospace",
     "editor.fontSize": 14,
     "editor.hover.delay": 1500,
     "editor.inlayHints.enabled": "offUnlessPressed",
@@ -13,11 +25,23 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.excludeGitIgnore": false,
-    "explorer.openEditors.sortOrder": "alphabetical",
+    "explorer.sortOrder": "type",
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
+    "isort.args": [
+        "--profile",
+        "black",
+        "--line-length",
+        "120"
+    ],
     "security.workspace.trust.untrustedFiles": "open",
     "telemetry.telemetryLevel": "off",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.inheritEnv": true,
+    "terminal.integrated.ls": 14,
+    "terminal.integrated.scrollback": 10000,
     "workbench.colorTheme": "Default Light+",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
