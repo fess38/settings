@@ -24,9 +24,9 @@ bind -k kl resize -h -10
 # Ctrl + A + Right
 bind -k kr resize -h +10
 # Ctrl + A + Up
-bind -k ku resize -v +10
+bind -k ku resize -v -10
 # Ctrl + A + Down
-bind -k kd resize -h -10
+bind -k kd resize -v +10
 
 # SCREEN START FROM 1
 bind c screen 1
