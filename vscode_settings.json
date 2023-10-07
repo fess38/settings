@@ -27,6 +27,9 @@
     "explorer.excludeGitIgnore": false,
     "explorer.sortOrder": "type",
     "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/__pycache__": true
+    },
     "files.insertFinalNewline": true,
     "isort.args": [
         "--profile",
@@ -34,16 +37,20 @@
         "--line-length",
         "120"
     ],
+    "notebook.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "notebook.formatOnSave.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "telemetry.telemetryLevel": "off",
     "terminal.explorerKind": "external",
     "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.inheritEnv": true,
-    "terminal.integrated.ls": 14,
     "terminal.integrated.scrollback": 10000,
     "workbench.colorTheme": "Default Light+",
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 20
 }
